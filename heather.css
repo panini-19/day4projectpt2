@@ -1,87 +1,116 @@
-* {
+*{
     padding: 0;
     margin: 0;
-}
-
-.hswords{
-    display: flex;
-   justify-content: space-evenly;
-  align-items: center;
-    
-}
-
-.oval{
-    width: 1700px;
-    height: 1566px;
-    border-radius: 50%;
-    background-color: blue;
-    position: absolute;
-    z-index: -1;
-    translate: -50% -50%;}
-
-
-
-    .hsright{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-       }
-   
-       .hsleft{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-       }
-    .hsimage{
-        max-width: 200px;
-   
-        
-    }
-    .hsper{
-        max-width: 15px;
-
-    }
-    .yournameinput{
-        border: none;
-        color: transparent;
-        width: 200px;
-    }
-
-
-.hspersonicon{
-    display: flexbox;
-    
+  }
+  
+  .hswords{
+      display: flex;
+     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid black;
-    border-radius: 15px;
-    width: 380px;
-    margin-left: 40%;
-    padding: 10px;
-    margin-top: 35px;}
-
-.hspersonicon2{
-    display: flexbox;
-        
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 15px;
-    width: 380px;
-    margin-left: 40%;
-    padding: 10px;
-margin-top: 29px;}
-
-    .hspersonicon3{
-        display: flexbox;
-            
-        align-items: center;
-        border: 1px solid black;
-        border-radius: 15px;
-        width: 380px;
-        margin-left: 40%;
-        padding: 10px;
-        margin-top: 29px;
-        
-    }
-
+  
+  
+  }
+  
+  .oval{
+      width: 1400px;
+      height: 1366px;
+      border-radius: 50%;
+      background-color: blue;
+      position: absolute;
+      z-index: -1;
+      translate: -50% -50%;}
+  
+  
+  
+      .hsright{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          margin-right:250px;
+         }
+  
+         .hsleft{
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+  
+         }
+      .hsimage{
+          max-width: 400px;
+          margin-left:42px;
+  
+  
+      }
+      .hsper{
+          max-width: 15px;
+  
+      }
+      .yournameinput{
+          border: none;
+          color: transparent;
+          width: 200px;
+      }
+  
+  
+  .hspersonicon{
+      display: flexbox;
+  
+      align-items: center;
+      border: 1px solid black;
+      border-radius: 25px;
+      width: 380px;
+      margin-left: 40%;
+      padding: 15px;
+      margin-top: 35px;}
+  
+  .hspersonicon2{
+      display: flexbox;
+  
+      align-items: center;
+      border: 1px solid black;
+      border-radius: 25px;
+      width: 380px;
+      margin-left: 40%;
+      padding: 15px;
+  margin-top: 29px;}
+  
+      .hspersonicon3{
+          display: flexbox;
+  
+          align-items: center;
+          border: 1px solid black;
+          border-radius: 25px;
+          width: 380px;
+          margin-left: 40%;
+          padding: 15px;
+          margin-top: 29px;
+  
+      }
+  
+  .hsaccount{
+      margin-right: 245px;
+      margin-top: 70px;
+      color: white;
+  }
+  .hswait{
+      margin-right: 250px;
+      margin-top: 10px;
+      color: white;
+  }
+  .hsbutton678{
+      margin-right: 260px;
+      margin-top: 15px; 
+      color: white;
+      background-color: blue;
+      border: 1px solid white;
+      padding: 7px;
+      border-radius: 40px;
+      width: 120px;
+      font-size: 12pt;
+  }
     
+  .hssignin1{
+    margin-left:200px;
+    font-size:38pt;
+  }
   
