@@ -33,13 +33,13 @@
 .hsleft {
     display: flex;
     align-content: flex-start;
-   
+    width:700px;
     flex-direction: column;
     
 }
 
 .hsimage {
-    max-width: 355px;
+    max-width: 450px;
 
 
 }
@@ -91,20 +91,22 @@
 }
 
 .hsaccount {
-   
-    
+    margin-left: 60px;
+    margin-top:2px;
     color: white;
+    text-align: auto;
 }
 
 .hswait {
     margin-top: 10px;
     color: white;
+    text-align: auto;
     
     
 }
 
 .hsbutton678 {
-    
+    margin-left: 90px;
     margin-top: 15px;
     color: white;
     background-color: blue;
@@ -117,6 +119,7 @@
 }
 
 .hssignin1 {
+    margin-top:40px;
     font-size: 38pt;
     text-align: center;
 }
@@ -142,7 +145,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    max-width: 190px;
+    width: 350px;
 }
 
 ul {
@@ -150,22 +153,24 @@ ul {
 }
 
 .iconimg1 {
-    max-width: 34px;
-
+    max-width: 45px;
 }
 
 
 .iconimg2 {
-    max-width: 34px;
-
+    max-width: 45px;
 }
 
 .iconimg3 {
-    max-width: 34px;
-
+    max-width: 45px;
 }
 
 .iconimg4 {
-    max-width: 34px;
+    max-width: 45px;
+}
+
+.hsicons2{
+    margin-left: atuo;
+    width:auto;
 
 }
