@@ -1,116 +1,169 @@
-*{
+* {
     padding: 0;
     margin: 0;
-  }
-  
-  .hswords{
-      display: flex;
-     justify-content: space-evenly;
+}
+
+.hswords {
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
-  
-  
-  }
-  
-  .oval{
-      width: 1400px;
-      height: 1366px;
-      border-radius: 50%;
-      background-color: blue;
-      position: absolute;
-      z-index: -1;
-      translate: -50% -50%;}
-  
-  
-  
-      .hsright{
-          display: flex;
-          align-items: center;
-          flex-direction: column;
-          margin-right:250px;
-         }
-  
-         .hsleft{
-          display: flex;
-          align-items: center;
-          flex-direction: column;
-  
-         }
-      .hsimage{
-          max-width: 400px;
-          margin-left:42px;
-  
-  
-      }
-      .hsper{
-          max-width: 15px;
-  
-      }
-      .yournameinput{
-          border: none;
-          color: transparent;
-          width: 200px;
-      }
-  
-  
-  .hspersonicon{
-      display: flexbox;
-  
-      align-items: center;
-      border: 1px solid black;
-      border-radius: 25px;
-      width: 380px;
-      margin-left: 40%;
-      padding: 15px;
-      margin-top: 35px;}
-  
-  .hspersonicon2{
-      display: flexbox;
-  
-      align-items: center;
-      border: 1px solid black;
-      border-radius: 25px;
-      width: 380px;
-      margin-left: 40%;
-      padding: 15px;
-  margin-top: 29px;}
-  
-      .hspersonicon3{
-          display: flexbox;
-  
-          align-items: center;
-          border: 1px solid black;
-          border-radius: 25px;
-          width: 380px;
-          margin-left: 40%;
-          padding: 15px;
-          margin-top: 29px;
-  
-      }
-  
-  .hsaccount{
-      margin-right: 245px;
-      margin-top: 70px;
-      color: white;
-  }
-  .hswait{
-      margin-right: 250px;
-      margin-top: 10px;
-      color: white;
-  }
-  .hsbutton678{
-      margin-right: 260px;
-      margin-top: 15px; 
-      color: white;
-      background-color: blue;
-      border: 1px solid white;
-      padding: 7px;
-      border-radius: 40px;
-      width: 120px;
-      font-size: 12pt;
-  }
-    
-  .hssignin1{
-    margin-left:200px;
-    font-size:38pt;
-  }
-  
+
+
+}
+
+.oval {
+
+    width: 1400px;
+    height: 1366px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    z-index: -1;
+    translate: -50% -50%;
+}
+
+
+
+.hsright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hsleft {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hsimage {
+    max-width: 400px;
+    margin-left: 110px;
+
+
+}
+
+.hsper {
+    max-width: 15px;
+
+}
+
+.yournameinput {
+    border: none;
+    color: transparent;
+    width: 200px;
+}
+
+
+.hspersonicon {
+    display: flexbox;
+
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 380px;
+    padding: 15px;
+    margin-top: 35px;
+}
+
+.hspersonicon2 {
+    display: flexbox;
+
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 380px;
+    padding: 15px;
+    margin-top: 29px;
+}
+
+.hspersonicon3 {
+    display: flexbox;
+
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 380px;
+    padding: 15px;
+    margin-top: 29px;
+
+}
+
+.hsaccount {
+    margin-right: 15px;
+    margin-top: 70px;
+    color: white;
+}
+
+.hswait {
+    margin-left: 1px;
+    margin-top: 10px;
+    color: white;
+}
+
+.hsbutton678 {
+    margin-right: 25px;
+    margin-top: 15px;
+    color: white;
+    background-color: blue;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 40px;
+    width: 120px;
+    font-size: 12pt;
+}
+
+.hssignin1 {
+    font-size: 38pt;
+    text-align: center;
+}
+
+.mainsignin {
+    width: 150px;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(36, 36, 247);
+    margin-top: 45px;
+    margin-inline:auto;
+    display:block;
+}
+
+.platforms1 {
+    margin-top: 25px;
+    text-align:center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 190px;
+}
+
+ul {
+    list-style: none;
+}
+
+.iconimg1 {
+    max-width: 34px;
+
+}
+
+
+.iconimg2 {
+    max-width: 34px;
+
+}
+
+.iconimg3 {
+    max-width: 34px;
+
+}
+
+.iconimg4 {
+    max-width: 34px;
+
+}
